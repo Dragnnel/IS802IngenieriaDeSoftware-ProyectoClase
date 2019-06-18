@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!-- Comienzo del encabezado lo mas general de sitio web -->
+<head>
+    <!-- Indicar que se utilizara caracteres especiales en la pagina-->
+    <meta charset="UTF-8">
+    <!-- Indicar que nuestro sitio web esta diseñado para ser visto desde diferentes tamaños de pantalla--> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+     <!-- Descripcion del proyecto y nombre de los autores -->
+     <meta name="description" content="Proyecto de Ingenieria de Software IS802-2019 donde se creara un Sistema Web de una Farmacia con Gestion de Sistema de Puntos.">
+     <meta name="author" content="  20151001598 Luis Estrada, 
+                                    20131004866 Jheral Blanco, 
+                                    20101600009 Bayrón Ayala,
+                                    20131015994 Nicole Ortiz, 
+                                    20141010053 Angie Argueta,
+                                    20121012100 Evert Gonzalez">
+
+    <!-- Icono o favicon de el sitio web y nombre de la pagina -->
+        <link rel="icon" href="../img/logo.png">
+        <title>Pagina Principal Farmacia IS802</title>
+
+    <!-- Importar las librerias de bootstrap -->
+        <link href="../css/dashboard.css" rel="stylesheet">
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <script src="../js/bootstrap.js"></script>
+        <script src="../js/dashboard.js"></script>
+    <!--Posterior uso JS, Popper.js y jQuery -->
+      <script src="js/jquery-3.3.1.js"></script>
+</head>
+<body>
+        <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+            <img class="rounded mx-left d-block" src="../img/logo.png" alt=" login " width="92" height="92" > 
+            <h3>Farmacia IS802</h3>
+                  <ul class="navbar-nav px-3">
+                  <li class="nav-item text-nowrap">
+                    <a class="nav-link" href="#">Desconectar</a>
+                  </li>
+                </ul>
+        </nav>
+              <hr>
+              <div class="container-fluid">
+                <div class="row">
+                  <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                    <div class="sidebar-sticky">
+                      <ul class="nav flex-column">
+                        <li class="nav-item">
+                                                    
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">
+                              <img class="rounded mx-auto d-block" src="../img/venta.png" alt=" login " width="64" height="64" >  Ventas
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img class="rounded mx-auto d-block" src="../img/compra.png" alt=" login " width="64" height="64" >  Compras
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">
+                              <img class="rounded mx-auto d-block" src="../img/inventario.png" alt=" login " width="64" height="64" >  Inventario
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">
+                              <img class="rounded mx-auto d-block" src="../img/reporte.png" alt=" login " width="64" height="64" > Reporte
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">
+                              <img class="rounded mx-auto d-block" src="../img/registro.png" alt=" login " width="64" height="64" >   Registro
+                          </a>
+                        </li>
+                      </ul>
+              
+                      <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                        <span>Tiempo:</span>
+                        <a class="d-flex align-items-center text-muted" href="#">
+                          <span data-feather="plus-circle"></span>
+                        </a>
+                      </h6>
+                      
+                    </div>
+                  </nav>
+              
+                  <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+                    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                      <h1 class="h2">Dashboard</h1>
+                    </div>
+              
+                    <h2>Section title</h2>
+                   
+                  </main>
+                </div>
+              </div>
+              
+    
+</body>
+</html>
