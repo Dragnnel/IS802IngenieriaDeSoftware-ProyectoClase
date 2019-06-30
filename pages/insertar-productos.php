@@ -1,7 +1,7 @@
 <?php
-include '../../../templates/documento-apertura.php';
-include '../../../templates/header.php';
-include '../../../templates/sidebar.php';
+include '../templates/documento-apertura.php';
+include '../templates/header.php';
+include '../templates/sidebar.php';
 ?>
 
 
@@ -98,6 +98,6 @@ include '../../../templates/sidebar.php';
 
 <?php
 
-include '../../../templates/documento-cierre.php';
+include '../templates/documento-cierre.php';
 
 ?>

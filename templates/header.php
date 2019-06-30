@@ -4,9 +4,9 @@
     <header class="main-header">
 
       <!-- Logo -->
-      <a href="#" class="logo">
+      <a href="../pages/index.php" class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
-        <span class="logo-mini"><b>Farmacia IS802</b> Ing Software</span>
+        <span class="logo-mini"><b>IS802</b></span>
         <!-- logo for regular state and mobile devices -->
         <span class="logo-lg"><b>Farmacia</b></span>
       </a>
@@ -25,13 +25,12 @@
             <!-- User Account: style can be found in dropdown.less -->
             <li class="dropdown user user-menu">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                <small class="bg-red">Online</small>
+                <small class="bg badge badge-success">Online</small>
                 <span class="hidden-xs">Nombre del usuario BD</span>
               </a>
               <ul class="dropdown-menu">
                 <!-- User image -->
                 <li class="user-header">
-
                   <p>
                     Ingenieria de Software
                     <small>IS802</small>

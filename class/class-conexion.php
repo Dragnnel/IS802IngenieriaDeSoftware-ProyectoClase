@@ -10,5 +10,5 @@ $conexion = mysqli_connect(
 if($conexion){
     echo 'Conexion exitosa';
 }
-
-?>*/
+*/
+?>

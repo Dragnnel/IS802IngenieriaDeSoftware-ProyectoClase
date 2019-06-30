@@ -1,6 +1,6 @@
 <?php
 
-include('../../../templates/conexion.php');
+include('../class/class-conexion.php');
 
 $query = "SELECT * FROM producto INNER JOIN categoriaProducto 
                         ON producto.codigoCategoria = categoriaProducto.codigoCategoria";

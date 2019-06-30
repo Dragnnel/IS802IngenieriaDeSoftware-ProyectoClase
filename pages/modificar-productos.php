@@ -1,7 +1,7 @@
 <?php
-include '../../../templates/documento-apertura.php';
-include '../../../templates/header.php';
-include '../../../templates/sidebar.php';
+include '../templates/documento-apertura.php';
+include '../templates/header.php';
+include '../templates/sidebar.php';
 ?>
 
 
@@ -16,7 +16,7 @@ include '../../../templates/sidebar.php';
       <div class="col-md-12">
         <div class="box">
           <div class="box-header with-border">
-            <h3 class="box-title">Sistema de Ventas</h3>
+            <h3 class="box-title">Modificar producto en el inventario</h3>
             <div class="box-tools pull-right">
               <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
 
@@ -89,8 +89,8 @@ include '../../../templates/sidebar.php';
 
 <?php
 
-include '../../../templates/documento-cierre.php';
+include '../templates/documento-cierre.php';
 
 ?>
 
-<script src="../../../js/producto.js"></script>
+<script src="../js/producto.js"></script>

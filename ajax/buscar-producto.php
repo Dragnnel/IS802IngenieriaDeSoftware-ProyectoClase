@@ -1,6 +1,6 @@
 <?php
 
-include('../../../templates/conexion.php');
+include('../class/class-conexion.php');
 
 $search = $_POST['search'];
 

@@ -26,24 +26,24 @@
 
     <!-- Importar las librerias de bootstrap -->
         <!-- Bootstrap 4.3.1 -->
-        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
         
     <!--Posterior uso JS, Popper.js y jQuery -->
-        <script src="../../../js/jquery-3.4.1.min.js"></script>
-        <script src="../../../js/popper.min.js"></script>
-        <script src="../../../js/bootstrap.js"></script>
-        <script src="../../../js/app.min.js"></script>
+        <script src="../js/jquery-3.4.1.min.js"></script>
+        <script src="../js/popper.min.js"></script>
+        <script src="../js/bootstrap.js"></script>
+        <script src="../js/app.min.js"></script>
         
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="../../../css/font-awesome.css">
+    <link rel="stylesheet" href="../css/font-awesome.css">
 
     <!-- Theme style -->
-    <link rel="stylesheet" href="../../../css/AdminLTE.min.css">
+    <link rel="stylesheet" href="../css/AdminLTE.min.css">
 
     <!-- AdminLTE Skins. Choose a skin from the css/skins
          folder instead of downloading all of them to reduce the load. -->
-    <link rel="stylesheet" href="../../../css/_all-skins.min.css">
-    <link rel="apple-touch-icon" href="../../../img/apple-touch-icon.png">
-    <link rel="shortcut icon" href="../../../img/favicon.ico">
+    <link rel="stylesheet" href="../css/_all-skins.min.css">
+    <link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+    <link rel="shortcut icon" href="../img/favicon.ico">
   </head>

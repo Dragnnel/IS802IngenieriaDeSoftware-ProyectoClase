@@ -1,5 +1,5 @@
 <?php
-include('../../../templates/conexion.php');
+include('../class/class-conexion.php');
 
 if(isset($_POST['id'])){
 
