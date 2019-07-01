@@ -8,7 +8,7 @@ $(function () {
       let search = $('#search').val();
 
       $.ajax({
-        url: 'buscar-producto.php',
+        url: '../ajax/buscar-producto.php',
         type: 'POST',
         data: { search },
         success: function (respuesta) {
@@ -42,7 +42,7 @@ $(function () {
     } else {//si el campo esta vacio 
 
       obtenerProductos();
-      //$('#search').trigger('reset');
+      $('#search').trigger('reset');
     }
   })//fin search()
 
@@ -50,7 +50,7 @@ $(function () {
   //fUNCION PARA MOSTRAR LOS PRODUCTOS EXISTENTES
   function obtenerProductos() {
     $.ajax({
-      url: 'lista-productos.php',
+      url: '../ajax/lista-productos.php',
       type: 'GET',
       success: function (respuesta) {
         let productos = JSON.parse(respuesta);
@@ -94,8 +94,9 @@ $(function () {
         let element = $(this)[0].parentElement.parentElement;
         let id = $(element).attr('id-producto');
         console.log(id);
-        $.post('eliminar-producto.php', {id }, function (respuesta) {
+        $.post('../ajax/eliminar-producto.php', {id }, function (respuesta) {
           obtenerProductos(); //llamo al la funcion obtenerTreas() para refrescar la lista
+		  $('#search').trigger('reset'); //limpio la el input de buscar
         })
       }
   
