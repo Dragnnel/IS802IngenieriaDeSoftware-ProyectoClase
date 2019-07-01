@@ -64,7 +64,6 @@ CREATE INDEX `fk_Estante_Sucursal_idx` ON `dbfarmacia`.`Estante` (`codigoSucursa
 CREATE TABLE IF NOT EXISTS `dbfarmacia`.`CategoriaProducto` (
   `codigoCategoria` INT NOT NULL AUTO_INCREMENT,
   `descripcion` VARCHAR(45) NULL,
-  `CategoriaProductocol` VARCHAR(45) NULL,
   PRIMARY KEY (`codigoCategoria`))
 ENGINE = InnoDB;
 
