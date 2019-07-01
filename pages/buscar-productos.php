@@ -31,7 +31,7 @@ include '../templates/sidebar.php';
 
                 <!--Contenido------------------------------------------------------------------------------------->
 
-                <h3>Listado de productos <a href="articulo/create"><button class=" h4 brn btn-success">Nuevo</button></a></h3>
+                <h3>Listado de productos <a href="insertar-productos.php"><button class=" h4 brn btn-success">Nuevo</button></a></h3>
 
                 <div class="from-group">
                   <div class="input-group">
