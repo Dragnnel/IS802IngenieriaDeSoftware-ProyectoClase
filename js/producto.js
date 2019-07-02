@@ -49,10 +49,12 @@ $(function () {
 
   //fUNCION PARA MOSTRAR LOS PRODUCTOS EXISTENTES
   function obtenerProductos() {
+    // $.ajax es un metodo proporcionado por jQuery para realizar peticiones Ajax al servidor  */
     $.ajax({
       url: '../ajax/lista-productos.php',
       type: 'GET',
       success: function (respuesta) {
+        //Convertimos a formato json mediante la funcion JSON.parse() el string recibido desde php 
         let productos = JSON.parse(respuesta);
         let plantilla = '';
         productos.forEach(producto => {
@@ -74,7 +76,8 @@ $(function () {
                           </tr>`
 
         })
-  
+        /* Pintamos la plantilla en el elemento con id = 'productos', dicho elemento se encuentra en
+         pages/buscar-productos.php */
         $('#productos').html(plantilla);
 
       }

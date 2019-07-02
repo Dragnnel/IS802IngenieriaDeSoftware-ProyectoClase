@@ -17,8 +17,13 @@ if(!empty($search)){
     }
 
     $json = array();
+
+    //mysql_fetch_array() convierte la variable $resultado en un arreglo, luego lo guarda en la variable $row
+    //luego se recorre usando el while
     while($row = mysqli_fetch_array($resultado)){
         $json[] = array(
+            //en la primera posicion del arreglo json guardamos un atributo llamado 'categoriaProducto' 
+            //y le damos el valor que se encuentra en el arreglo $row con etiqueta descripcion  
             'categoriaProducto' => $row['descripcion'],
             'codigoProducto' => $row['codigoProducto'],
             'fechaElaboracion' => $row['fechaElaboracion'],

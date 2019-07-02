@@ -13,6 +13,9 @@ if (!$resultado) {
 $json = array();
 while ($row = mysqli_fetch_array($resultado)) {
     $json[] = array(
+        /*En la primera posicion del arreglo json guardamos un atributo llamado 'categoriaProducto' 
+        y le damos el valor que se encuentra en el arreglo $row con etiqueta 'descripcion'.  
+        NOTA: 'descripcion' hace referencia a un campo de la base de datos */
         'categoriaProducto' => $row['descripcion'],
         'codigoProducto' => $row['codigoProducto'],
         'fechaElaboracion' => $row['fechaElaboracion'],
@@ -25,7 +28,7 @@ while ($row = mysqli_fetch_array($resultado)) {
         'imagen' => $row['imagen']
     );
 }
-
+//Con la funcion json_encode() convierto el arreglo $json a formato string pero con la sintaxis de json
 $jsonString = json_encode($json);
 
 echo $jsonString;
