@@ -62,7 +62,7 @@ include '../templates/sidebar.php';
                       <th>Opciones</th>
                     </thead>
 
-                    <tbody id="productos">
+                    <tbody id="tbodyProductos">
 
 
                     </tbody>
@@ -70,6 +70,74 @@ include '../templates/sidebar.php';
                   </table>
                 </div>
               </div>
+                <div id="div-contenido" >
+                </div>
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Editar Producto</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Nombre:</label>
+                            <input type="text" class="form-control" id="txt-nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Fecha Elaboracion:</label>
+                            <input type="date" class="form-control" id="txt-fechaElaboracion">
+                        </div>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Fecha Vencimiento:</label>
+                            <input type="date" class="form-control" id="txt-fechaVencimiento">
+                        </div>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Serie:</label>
+                            <input type="text" class="form-control" id="txt-serie">
+                        </div>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Lote:</label>
+                            <input type="text" class="form-control" id="txt-lote">
+                        </div>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Precio Venta:</label>
+                            <input type="text" class="form-control" id="txt-precioVenta">
+                        </div>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Precio Costo:</label>
+                            <input type="text" class="form-control" id="txt-precioCosto">
+                        </div>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Inventario:</label>
+                            <input type="text" class="form-control" id="txt-inventario">
+                        </div>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Imagen:</label>
+                            <input type="text" class="form-control" id="txt-imagen">
+                        </div>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Fecha Registro:</label>
+                            <input type="date" class="form-control" id="txt-fechaRegistro">
+                        </div>
+                        <div  id="div-success" class="alert alert-success" role="alert">
+                            El producto fue modificado con exito
+                        </div>
+                        <div  id="div-error" class="alert alert-danger" role="alert">
+                            
+                        </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary" onclick="editarProducto();">Guardar</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
             </div>
             <!--Fin Contenido------------------------------------------------------------------------------------>
 
@@ -93,4 +161,4 @@ include '../templates/documento-cierre.php';
 
 ?>
 
-<script src="../js/producto.js"></script>
+<script src="../js/controlador-producto.js"></script>
