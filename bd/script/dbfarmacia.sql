@@ -396,7 +396,7 @@ CREATE TABLE IF NOT EXISTS `dbfarmacia`.`Producto` (
   `idProducto` INT NOT NULL AUTO_INCREMENT,
   `nombreProducto` VARCHAR(45) NOT NULL,
   `fechaElaboracion` DATE NOT NULL,
-  `fechaVencimiento` DATE NOT NULL,
+  `fechaVencimiento` DATE ,
   `serie` VARCHAR(45) NULL,
   `direccionImagen` VARCHAR(10000) NULL,
   `idInventario` INT NOT NULL,

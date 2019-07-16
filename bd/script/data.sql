@@ -277,3 +277,5 @@ insert into Medicamento (idMedicamento, indicacion, elaboracion, idProducto) val
 insert into Medicamento (idMedicamento, indicacion, elaboracion, idProducto) values (2, 'Tomar dos veces al dia', 'Ingrediente 1 ingrediente 2', 2);
 insert into Medicamento (idMedicamento, indicacion, elaboracion, idProducto) values (3, 'tomar cada 8 horas', 'Ingrediente 1 ingrediente 2', 3);
 insert into Medicamento (idMedicamento, indicacion, elaboracion, idProducto) values (4, 'Tomar una vez al dia', 'Ingrediente 1 ingrediente 2', 4);
+
+

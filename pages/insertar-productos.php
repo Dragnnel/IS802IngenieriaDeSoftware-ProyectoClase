@@ -31,12 +31,7 @@ include '../templates/sidebar.php';
                     <!-- /.box-header -->
                     <div class="box-body">
                         <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="form-group">
-                                        <label for="codigoProducto">Codigo de producto</label><br>
-                                        <input type="text" name="codigoProducto" required value="" class="form-control" placeholder="Codigo de producto...">
-                                    </div>
-                            </div>
+                            
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                 <div class="form-group">
                                     <label for="imagen">Imagen</label><br>
@@ -100,16 +95,7 @@ include '../templates/sidebar.php';
                                 </div>
                             </div>
 
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="form-group">
-                                    <label>Categorias</label>
-                                    <select name="idcategoria" class="form-control" id="">
-                                        @foreach($categorias as $cat)
-                                        <option value="{{$cat->idcategoria}}">{{$cat->nombre}}</option>
-                                        @endforeach
-                                    </select>
-                                </div>
-                            </div>
+
                             
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                 <div class="form-group">
