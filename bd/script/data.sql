@@ -257,10 +257,10 @@ insert into PresentacionProducto (idPresentacionProducto, descripcion) values (3
 insert into PresentacionProducto (idPresentacionProducto, descripcion) values (4, 'Bote');
 
 
-insert into Producto (idProducto, nombreProducto, fechaElaboracion, fechaVencimiento, serie, direccionImagen, idInventario, fechaRegistro, idPresentacion, estadoProducto) values (1, 'Paracetamol', '2018-08-15', '2018-09-29', '212-76-5376', '../img/productos/1.jpg', 1, '2018-11-18', 1, 'A');
-insert into Producto (idProducto, nombreProducto, fechaElaboracion, fechaVencimiento, serie, direccionImagen, idInventario, fechaRegistro, idPresentacion, estadoProducto) values (2, 'Sudagrip', '2018-07-17', '2018-12-07', '789-75-2041', '../img/productos/2.jpg', 1, '2018-10-22', 3, 'A');
-insert into Producto (idProducto, nombreProducto, fechaElaboracion, fechaVencimiento, serie, direccionImagen, idInventario, fechaRegistro, idPresentacion, estadoProducto) values (3, 'Loratadina', '2018-11-02', '2019-02-08', '782-62-1704', '../img/productos/3.jpg', 1, '2018-09-07', 3, 'A');
-insert into Producto (idProducto, nombreProducto, fechaElaboracion, fechaVencimiento, serie, direccionImagen, idInventario, fechaRegistro, idPresentacion, estadoProducto) values (4, 'Aspirina', '2018-09-10', '2018-10-18', '329-89-1748', '../img/productos/4.jpg', 1, '2019-05-14', 1, 'A');
+insert into Producto (idProducto, nombreProducto, fechaElaboracion, fechaVencimiento, serie, direccionImagen, idInventario, fechaRegistro, estadoProducto) values (1, 'Paracetamol', '2018-08-15', '2018-09-29', '212-76-5376', '../img/productos/1.jpg', 1, '2018-11-18', 'A');
+insert into Producto (idProducto, nombreProducto, fechaElaboracion, fechaVencimiento, serie, direccionImagen, idInventario, fechaRegistro, estadoProducto) values (2, 'Sudagrip', '2018-07-17', '2018-12-07', '789-75-2041', '../img/productos/2.jpg', 1, '2018-10-22', 'A');
+insert into Producto (idProducto, nombreProducto, fechaElaboracion, fechaVencimiento, serie, direccionImagen, idInventario, fechaRegistro, estadoProducto) values (3, 'Loratadina', '2018-11-02', '2019-02-08', '782-62-1704', '../img/productos/3.jpg', 1, '2018-09-07', 'A');
+insert into Producto (idProducto, nombreProducto, fechaElaboracion, fechaVencimiento, serie, direccionImagen, idInventario, fechaRegistro, estadoProducto) values (4, 'Aspirina', '2018-09-10', '2018-10-18', '329-89-1748', '../img/productos/4.jpg', 1, '2019-05-14', 'A');
 
 
 insert into Precio_X_Presentacion (idPrecioPresentacion, idProducto, idPresentacionProducto, precioVenta, cantidad, fechaVigencia, fechaFin) values (1, 1, 1, '22.48', 5, '4/18/2019', '10/5/2018');
